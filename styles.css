@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Work+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #111111;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: white;
+    margin:30px
+}
+h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.inputElements{
+    width: 95vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 12px;
+
+}
+.inputBox{
+    border: 1px solid white;
+    background: transparent;
+    padding: 12px;
+    color: white;
+
+}
+.addButton{
+    margin-top: 24px;
+    width: 350px;
+    cursor: pointer;
+    padding: 8px;
+    margin-bottom: 30px;
+    font-family: 'Inter', sans-serif;
+}
+.searchBar{
+    margin-bottom: 30px;
+    width: 100%;
+}
+.searchSection{
+    width: 95vw;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.table{
+    width: 95vw;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid white;
+    padding: 20px;
+}
+th{
+    text-align: left;
+}
+.course-edit{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.edit-delete{
+    display: flex;
+}
+.edit, .delete{
+    cursor: pointer;
+}
